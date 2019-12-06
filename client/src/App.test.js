@@ -1,7 +1,9 @@
+import React from 'react'
 import * as rtl from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 import App from './App';
-import PlayerCard from './components/PlayerCard';
+import PlayerCard from './components/playerCard';
+
 
 afterEach(rtl.cleanup);
 
